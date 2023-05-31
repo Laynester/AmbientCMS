@@ -1,0 +1,200 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, #client {
+	height: 100%;
+	text-align: left;
+	background-color: #000;
+}
+
+#client {
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+habbo-client-error {
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+	}
+habbo-client-closed,habbo-client-error{height:100%;position:absolute;top:0;width:100%;display:-ms-flexbox;padding:48px 12px;z-index:610;left:0}*{box-sizing:border-box;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}.client-error__background-frank{background-image:url(https://images.habbo.com/habbo-web/america/en/assets/images/backgrounds/flash_error_bg.57539aa2.png);display:block;height:368px;padding:80px 17px 35px 242px;position:relative;width:639px}.client-error__text-contents{height:253px;position:absolute;text-align:left}blockquote:first-child,h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child,p:first-child{margin-top:0}.client-error__title{text-align:left}h1{font-size:36px}h1,h2,h3,h4,h5,h6{color:#fff;font-family:ubuntu condensed,trebuchet ms,lucida grande,lucida sans unicode,lucida sans,Tahoma,sans-serif;font-weight:400;margin:.6em 0;line-height:1.2}h1,h2,h3,h4,h5{text-transform:uppercase}.card__meta,h1,h2,h3,h4,h5,h6{text-shadow:0 1px rgba(0,0,0,.3)}*{box-sizing:border-box;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}blockquote:last-child,p:last-child{margin-bottom:0}p{margin:.75em 0}.hotel-button,h5,h6,p{font-size:16px}blockquote,p,small{line-height:1.4}.client-error__hotel-button-div{bottom:30px;float:right;position:absolute;right:30px}.hotel-button{display:inline-block;line-height:1.2;text-align:center;background-color:#ffb900;border-color:#ffea00;color:#000;border-radius:5px 0 0 5px;border-width:2px 1px 2px 2px;border-style:solid;margin-bottom:4px;text-transform:uppercase;box-shadow:none;position:relative;margin-right:20px;margin-top:-3px;padding:6px 12px 6px 24px}.hotel-button,h5,h6,p{font-size:16px}.client__buttons .client__close,.hotel-button{filter:drop-shadow(-1px 4px 0 rgba(0,0,0,.3))}a{color:#fff;cursor:pointer;outline:0;text-decoration:none}a{background-color:transparent}.hotel-button:before{border-width:21px;top:-2px;border-color:transparent transparent transparent #ffea00;right:-43px}.hotel-button:after,.hotel-button:before{border-style:solid;position:absolute;display:block;content:''}.hotel-button__text{position:relative;padding-right:27px;text-align:right;line-height:26px}.hotel-button:after{border-width:19px;top:0;border-color:transparent transparent transparent #ffb900;right:-38px}.hotel-button:after,.hotel-button:before{border-style:solid;position:absolute;display:block;content:''}.hotel-button__text:before{background-image:url(https://images.habbo.com/habbo-web/america/en/assets/images/sprite.541175ea.png);background-position:-242px -434px;width:21px;height:26px;content:'';display:block;margin-top:-13px;position:absolute;top:50%;right:0}
+
+
+
+.client-disconnect-overlay{z-index:9990!important;position:absolute;left:0;top:0;bottom:0;right:0;background: #121a31;
+background: -moz-linear-gradient(top, #121a31 22%, #29557b 100%);
+background: -webkit-linear-gradient(top, #121a31 22%,#29557b 100%);
+background: linear-gradient(to bottom, #121a31 22%,#29557b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a31', endColorstr='#29557b',GradientType=0 );text-align:center}.client-disconnect-overlay .client-landing-image,.client-loading-overlay .client-landing-image{z-index:9991!important;position:absolute;bottom:0}.client-loading-overlay .client-loading-logo,.client-disconnect-overlay .client-disconnect-logo{background:url(/includes/templates/habbo/style/v1/imaging/disconnected.png);background-position:top center;background-repeat:no-repeat;width:220px;height:431px;margin-left:auto;margin-right:auto;margin-top:5%}.client-loading-overlay .client-loading-info,.client-disconnect-overlay .client-disconnect-info{z-index:9999!important;position:absolute;width:300px;height:auto;margin-left:auto;margin-right:auto;bottom:10px;left:0;right:0}.client-disconnect-overlay .disconnect-box:first-child,.client-loading-overlay .loading-box:first-child{margin-top:0}.client-loading-overlay .loading-text,.client-disconnect-overlay .disconnect-text{font-family:Tahoma,Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;margin-top:0;color:#fff}.client-disconnect-overlay .disconnect-button{font-family:Tahoma,Helvetica,Arial,sans-serif;font-weight:400;font-size:22px;display:block;width:100%}.button-green,.button-success,.button-login{background:#00813e;border:2px solid #8eda55;padding:10px;display:inline-block;color:#fff;-webkit-box-shadow:0 0 0 1px rgba(50,50,50,1);-moz-box-shadow:0 0 0 1px rgba(50,50,50,1);box-shadow:0 0 0 1px rgba(50,50,50,1)}.button-login:hover,.button-green:hover,.button-success:hover{background:#00ab54;border:2px solid #b9f373}.black-outline{-webkit-box-shadow:0 0 0 1px rgba(50,50,50,1);-moz-box-shadow:0 0 0 1px rgba(50,50,50,1);box-shadow:0 0 0 1px rgba(50,50,50,1)}.rounded{border-radius:4px 4px 4px 4px;-webkit-border-radius:4px 4px 4px 4px;-moz-border-radius:4px 4px 4px 4px;-o-border-radius:4px 4px 4px 4px}.client-loading-overlay .loading-box,.client-disconnect-overlay .disconnect-box{background:rgba(0,0,0,.2);padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;margin-top:5px;border-bottom:2px solid rgba(0,0,0,.4)}.spacer-tiny{margin-top:5px}.client-loading-overlay .client-loading-info,.client-disconnect-overlay .client-disconnect-info{z-index:9999!important;position:absolute;width:300px;height:auto;margin-left:auto;margin-right:auto;bottom:auto;left:0;right:0}.client-loading-overlay .loading-text-massive,.client-disconnect-overlay .disconnect-text-massive{font-size:40px!important}.client-disconnect-overlay .disconnect-box:first-child,.client-loading-overlay .loading-box:first-child{margin-top:0}.uppercase{text-transform:uppercase!important}.button-green,.button-success,.button-login{background:#00813e;border:2px solid #8eda55;padding:10px;display:inline-block;color:#fff;-webkit-box-shadow:0 0 0 1px rgba(50,50,50,1);-moz-box-shadow:0 0 0 1px rgba(50,50,50,1);box-shadow:0 0 0 1px rgba(50,50,50,1)}.button-login:hover,.button-green:hover,.button-success:hover{background:#00ab54;border:2px solid #b9f373}.spacer{margin-top:20px}div.rounded,div.rounded-done{padding:10px!important}.centered{text-align:center!important}.btn-hover:hover{opacity:.8;cursor:pointer}.button{cursor:pointer;font-size:25px}
+
+
+
+.loader,
+.loader .loader-bg {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.loader {
+	position: fixed;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 700;
+	background:url(https://www.thishabbo.com/_assets/img/website/bargradient3.png),url(https://cdn.discordapp.com/attachments/507236081125687302/524914718289166336/grid.png);
+}
+
+.loader.loader-error-color {
+	background: linear-gradient(to right, #30e8bf, #ff8235);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.loader .loader-bg {
+	position: absolute;
+	background:linear-gradient(45deg, #aa1100, #ff4400, #ffbb11, #55aa00, #000055, #fb0082);
+	animation: filter 6s ease infinite;
+	opacity: 0.19;
+}
+
+.loader .loader-image {
+	background-image: url(https://nextgenhabbo.com/static/img/nghlogo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 422px;
+	height: 320px;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	image-rendering: pixelated;
+	z-index: 200
+}
+.loader .loader-image2{
+	background-image:url(/includes/templates/habbo/style/v1/imaging/disconnected.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    position:absolute;
+    width:422px;
+    height:499px;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:200;
+}
+
+.loader .loader-loading {
+	position: absolute;
+	width: 450px;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center
+}
+
+.loader .loader-loading .loader-loading-bar {
+	background: -moz-linear-gradient(top, #222 50%, #333 50%, #222 50%);
+	background: -webkit-linear-gradient(top, #222 50%, #333 50%, #222 50%);
+	background: linear-gradient(to bottom, #333 50%, #333 50%, #222 50%);
+	border: 1px solid #fff;
+	border-radius: 4px;
+	height: 28px;
+	margin-bottom: 10px
+}
+
+.loader .loader-loading .loader-loading-bar .loader-loading-bar-inner-bar {
+	background: #bdcad2;
+	background: -moz-linear-gradient(top, #2f6996 50%, #144d79 50%, #2f6996 50%);
+	background: -webkit-linear-gradient(top, #2f6996 50%, #144d79 50%, #2f6996 50%);
+	background: linear-gradient(to bottom, #144d79 50%, #144d79 50%, #2f6996 50%);
+	height: 26px;
+	transition: width .4s ease-in-out;
+	width: 0;
+	border-radius: 4px;
+}
+
+.loader .loader-loading .loader-loading-heading {
+	color: #999;
+	font-size: 21.5pt;
+	margin-bottom: 10px;
+	font-weight: 500
+}
+
+.loader .loader-loading .loader-loading-percentage {
+	color: #999;
+	font-weight: 500;
+	font-size: 10pt
+}
+
+.loader .loader-error-image {
+	background-image: url(https://nextgenhabbo.com/static/img/flasherror.png);
+	width: 130px;
+	height: 227px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 35%;
+	left: calc(50%);
+	transform: translate(-50%, -50%);
+	image-rendering: optimizeSpeed;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+	z-index: 200
+}
+
+.loader .loader-error {
+	position: absolute;
+	width: 450px;
+	top: calc(35% + 120px);
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	font-size: 12pt;
+	max-width: calc(100% - 20px)
+}
+
+.loader .loader-error a {
+	color: #fff;
+	text-decoration: none!important;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px
+}
+
+.loader .loader-error a:hover {
+	color: #e6e6e6
+}
+
+.loader .loader-error a:active {
+	border: none
+}
+
+.loader .loader-error .loader-error-heading {
+	font-size: 22pt;
+	font-weight: 500
+}
+
+.loader .loader-error .loader-error-muted {
+	font-size: 10pt;
+	margin-top: 10px
+}
+@keyframes filter {
+    0% {
+        filter: hue-rotate(360deg) sepia(0) grayscale(0);
+    }
+    50% {
+        filter: hue-rotate(0) ;
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
